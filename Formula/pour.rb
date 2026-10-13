@@ -9,21 +9,21 @@ class Pour < Formula
   on_macos do
     on_arm do
       url "https://ipconfig.co.network/pour/dl/v0.1.0/pour-macos-arm64"
-      sha256 "819e6136cf9183c1098d8c697bd41d68b3405ff68a8665d50018dd4b17e2577b"
+      sha256 "60671e5d2b8ca19cdcaa2aec23e2f91b4f40fd8891332001e999723b537e8b4e"
     end
     on_intel do
       url "https://ipconfig.co.network/pour/dl/v0.1.0/pour-macos-x86_64"
-      sha256 "a452a8c48d8c7dc8ab5a01024883e6d24fbd4892e9a1b63bf73a82fa33354350"
+      sha256 "c7c6c01c4a1d058bca98342fd4f0e9ca6b2053969973161c49c5edc66c8f145a"
     end
   end
   on_linux do
     on_arm do
       url "https://ipconfig.co.network/pour/dl/v0.1.0/pour-linux-arm64"
-      sha256 "f300bdb5eac573369aa87353f3dee1ce5d75076eb90b00411a414db3fe8aa959"
+      sha256 "660b7ee68989cb013f3608d65bdaa0f05b5658c74a056273f93c972cede89945"
     end
     on_intel do
       url "https://ipconfig.co.network/pour/dl/v0.1.0/pour-linux-x86_64"
-      sha256 "d257e85abfd3ad23c6f1e3d32d027ca0d6a59f1cbe10d295b5dc377694771bb3"
+      sha256 "e0db46f67557cb087cbd2c2ad2e32ed4b56d3319399448b40449eb762eb890b2"
     end
   end
 
