@@ -36,6 +36,7 @@ class Pour < Formula
 
   def install
     downloaded = Dir["pour-*"].first
+    chmod 0755, downloaded
     bin.install downloaded => "pour"
     generate_completions_from_executable(bin/"pour", "completions")
   end
